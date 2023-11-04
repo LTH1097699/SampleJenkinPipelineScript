@@ -1,0 +1,27 @@
+pipeline {
+  agent any #execute this pipline or any available agent
+
+  stages {
+
+    stage('Build') {
+      steps {
+      }
+    }
+
+    stage('Build') {
+      steps {
+      }
+    }
+
+    stage('Build') {
+      steps {
+      }
+    }
+
+    stage('Build') {
+      steps {
+      }
+    }
+
+  }
+}

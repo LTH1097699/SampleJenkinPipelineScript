@@ -1,5 +1,5 @@
 pipeline {
-  agent any #execute this pipline or any available agent
+  agent any
 
   stages {
 

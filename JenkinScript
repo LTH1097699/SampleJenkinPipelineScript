@@ -5,21 +5,25 @@ pipeline {
 
     stage('Build') {
       steps {
+        echo "Building process";
       }
     }
 
-    stage('Build') {
+    stage('Test') {
       steps {
+        echo "Testing process";
       }
     }
 
-    stage('Build') {
+    stage('Deploy') {
       steps {
+        echo "Deploying process";
       }
     }
 
-    stage('Build') {
+    stage('Release') {
       steps {
+        echo "Releasing process";
       }
     }
 
